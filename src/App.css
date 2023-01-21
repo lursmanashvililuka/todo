@@ -1,0 +1,63 @@
+body{
+     background-image: url(2.jpg);
+}
+button{
+  
+    border-radius: 10px;
+}
+h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.x{
+  margin-left: 90px;
+}
+ul li{
+  border: 3px;
+  list-style: circle;
+  margin-right: 3.5rem;
+  border: 3px;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem;
+  padding-left: 4rem;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-right: 2rem;
+
+}
+.tick{
+  margin-left: 90px;
+
+}
+
+ul li{
+  margin-top: 5px;
+  border-radius: 9px;
+}
+ 
+
+button:hover {
+  background-color: #f44336;
+
+}
+
+.todo{
+  text-align: center;
+}
+input{
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 1rem;
+  padding-right: 2rem;
+  border-radius: 3rem;
+  border-style:none;
+}
+
+  
